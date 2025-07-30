@@ -67,10 +67,9 @@ npx playwright test --headed
 
 ```
 .
-├── tests/                   # Your test files (TypeScript)
+├── tests/                   # Your test files (TypeScript/JavaScript)
 ├── playwright.config.ts     # Playwright configuration
 ├── package.json             # Node project file
-├── tsconfig.json            # TypeScript config
 ├── README.md
 ```
 
