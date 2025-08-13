@@ -11,6 +11,7 @@ Before you begin, make sure you have the following installed:
 
 - **[Node.js](https://nodejs.org/)** (.msi installer for Windows recommended/easiest)
 - **[Git](https://git-scm.com/)** (I recommend the standalone installer for Windows)
+- **[VSCode](https://code.visualstudio.com/download)** (Any IDE Works, this is however the editor I will be using)
 
 It's also important to have some fundamentals of Programming/Git. To keep the workshop mostly focused on automation and specifically Playwright I want to make sure everyone is at least starting from a certain point.
 
@@ -26,8 +27,9 @@ This will ensure that we are able to start from scratch with Playwright AND comm
 It's important before starting the workshop that we are able to assume the following can be done:
 
 1. You have installed Node.js and Git from the links above ⚙️
-2. You are able to clone the project to a folder 💾
-3. You can run the demo.spec.ts file without issues 🧪
+2. You have installed VSCode (or another IDE)
+3. You are able to clone the project to a folder 💾
+4. You can run the demo.spec.ts file without issues 🧪
 
 A few important links/resources I think can help us all ensure we understand JavaScript/Git basics:
 
