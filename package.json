@@ -1,11 +1,11 @@
 {
   "name": "automation-workshop",
   "version": "1.0.0",
-  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "description": "A workshop project to help demo playwrights capabilities",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "Matt Smith",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
