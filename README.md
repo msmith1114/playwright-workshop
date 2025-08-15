@@ -49,6 +49,7 @@ Both of these are good resources. We are going to focus less on git, but it is h
 ### Playwright
 1. https://playwright.dev/docs/intro
 Playwright has a great intro just to get a feel for it. Don't worry too much about exploring every bit of documentation. It's a good idea to click around just to get familiar with running a basic test.
+2. I also HIGHLY recommend installing the Playwright VSCode Extension (by Microsoft) just to make things easier.
 
 ---
 

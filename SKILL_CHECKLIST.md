@@ -37,26 +37,29 @@ This intends to be a roadmap of both Playwright concepts AND a checklist of test
 ### 6. Extras
 - [ ] Take a screenshot of a page
 - [ ] Run the same test in **multiple browsers**
-- [ ] Generate and view an **HTML report**
+- [ ] Generate and view an **HTML report** and Change Reporting Types
 - [ ] Run tests **headless**
+- [ ] Try/Catch + Conditional Logic
 
 ---
 
-## ✅ Playwright Concepts Checklist
+## ✅ Playwright Concepts Checklist/Workshop Goals
 
 ### 1. Core Basics
+- [ ] What is Playwright? How does it compare to others?
+- [ ] What is Node?
 - [ ] Understanding the Playwright Test Runner (`@playwright/test`)
 - [ ] Test structure: `test.describe`, `test`, `beforeEach`, `afterEach`
-- [ ] Locators: CSS, text, role-based (`getByRole`, `getByLabel`)
-- [ ] Common actions: `click`, `fill`, `check`, `selectOption`, `hover`
+- [ ] Locators: CSS, text, role-based (`getByRole`, `getByText`)
+- [ ] Common actions: `click`, `fill`, `check` etc...
 - [ ] Assertions: `toHaveText`, `toBeVisible`, `toHaveCount`, `toHaveURL`, `toHaveTitle`
 
 ### 2. Test Control
 - [ ] **Headed vs. Headless** mode (`--headed`)
 - [ ] Running in multiple browsers (Chromium, Firefox, WebKit)
 - [ ] Parallel vs. serial execution
-- [ ] Skipping and focusing tests (`test.skip`, `test.only`)
-- [ ] Tagging tests with annotations (`test.describe("tag", ...)`)
+- [ ] Skipping and focusing tests (`test.skip`, `test.only`, `test.fixme`)
+- [ ] Tagging tests (`@tag`)
 - [ ] Debugging mode and UI mode (`--ui`, `--debug`)
 
 ### 3. Fixtures & Context
@@ -69,12 +72,14 @@ This intends to be a roadmap of both Playwright concepts AND a checklist of test
 - [ ] Shared utility functions (e.g., `loginUser()`)
 - [ ] Configuring base URL in `playwright.config.ts`
 - [ ] Using environment variables for credentials
+- [ ] Handling multiple enviroments/data
 
 ### 5. Waiting & Timing
 - [ ] Auto-waiting behavior in Playwright
 - [ ] Explicit waits: `page.waitForSelector`, `page.waitForURL`
 - [ ] Avoiding `waitForTimeout` unless debugging
 - [ ] Handling animations and transitions
+- [ ] Page Hydration
 
 ### 6. Advanced Features
 - [ ] File uploads (`setInputFiles`)
