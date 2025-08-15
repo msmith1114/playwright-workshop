@@ -48,6 +48,7 @@ This intends to be a roadmap of both Playwright concepts AND a checklist of test
 ### 1. Core Basics
 - [ ] What is Playwright? How does it compare to others?
 - [ ] What is Node?
+- [ ] Library vs Test Runner?
 - [ ] Understanding the Playwright Test Runner (`@playwright/test`)
 - [ ] Test structure: `test.describe`, `test`, `beforeEach`, `afterEach`
 - [ ] Locators: CSS, text, role-based (`getByRole`, `getByText`)
