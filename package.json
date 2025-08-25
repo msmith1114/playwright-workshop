@@ -1,5 +1,5 @@
 {
-  "name": "automation-workshop",
+  "name": "playwright-workshop",
   "version": "1.0.0",
   "description": "A workshop project to help demo playwrights capabilities",
   "main": "index.js",
