@@ -58,8 +58,8 @@ Playwright has a great intro just to get a feel for it. Don't worry too much abo
 ### 1. Clone the repository
 
 ```bash
-git clone https://scm.qsrautomations.com/test-automation/sandbox/automation-workshop.git
-cd automation-workshop
+git clone https://github.com/msmith1114/playwright-workshop.git
+cd playwright-workshop
 ```
 
 ### 2. Install dependencies

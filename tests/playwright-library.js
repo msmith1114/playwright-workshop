@@ -11,9 +11,7 @@ const { chromium, devices } = require('playwright');
   const page = await context.newPage();
 
   // Navigate and interact
-  await page.goto("https://qsrautomations.com/");
-
-  assert.equal(await page.title(),'Unlock Profitability with QSR Automations Technology | QSR Automations | The Global Leader in Restaurant Technology');
+  await page.goto("www.google.com");
 
   // Close browser
   await browser.close();
