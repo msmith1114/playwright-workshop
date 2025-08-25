@@ -10,7 +10,7 @@ setup("authenticate admin", async ({ page }) => {
   await page.getByRole("textbox",{name: "Username"}).fill("admin");
   await page.getByRole("textbox",{name: "Password"}).fill("password");
   await page.getByRole("button", {name: "Login"}).click();
-    await page.waitForTimeout(2000);
+  await page.waitForTimeout(2000);
   await page.context().storageState({ path: authFile });
   await page.waitForTimeout(2000);
 });
