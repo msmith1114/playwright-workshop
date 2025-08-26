@@ -11,8 +11,10 @@ const { chromium, devices } = require('playwright');
   const page = await context.newPage();
 
   // Navigate and interact
-  await page.goto("www.google.com");
-
+  await page.goto("https://playwright.dev/");
+  // Click the get started link.
+  await page.getByRole('link', { name: 'Get started' }).click();
+  await page.waitForTimeout(2000)
   // Close browser
   await browser.close();
 })();
