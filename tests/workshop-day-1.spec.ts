@@ -12,6 +12,10 @@ test("Basic assertions", async ({ page }) => {
 test("Lets click a button", async ({ page }) => {
     await page.goto("/");
     await page.getByRole("link", {name: "Rooms"}).click();
+    // Scoping/Chaining Locators
+    //await page.locator("ul.navbar-nav").getByRole("link", {name: "Rooms"}).click()
+    // Using filter
+    //await page.locator("a").filter({hasText: "admin panel"}).click();
 })
 
 test("Filling in a form", async ({ page }) => {

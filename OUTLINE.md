@@ -36,6 +36,8 @@
     - Types of Locators (Built-in, CSS, Xpath)
     - https://playwright.dev/docs/locators
     - Locator preference
+    - Locator chaining ⛓️
+    - Locator filtering 
 - Why we need `await`
 - Auto-Waiting: https://playwright.dev/docs/actionability
 - Test Blocks (test/describe)
