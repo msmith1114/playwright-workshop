@@ -27,7 +27,7 @@
     - page → test-scoped (created once per test)
  
 - Lifecycle of a Test (by Default)
-  
+```  
 Worker starts:
   └── browser created (shared)
 Each test:
@@ -36,6 +36,7 @@ Each test:
   └── run beforeEach/test/afterEach using that page
   └── page disposed
   └── context disposed
+```
 
 - Locator: https://playwright.dev/docs/api/class-locator
     - Selenium WebElement vs Playwright Locator
