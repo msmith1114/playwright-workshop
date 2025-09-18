@@ -37,8 +37,9 @@ Each test:
   └── page disposed
   └── context disposed
 ```
-- What is a worker? https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API
-- Playwright worker defaults: (Parallelization per file/etc..)
+- What is a worker? https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API (for Browser)
+- NodeJS Worker: https://nodejs.org/api/worker_threads.html <---- Handles Parallelization in Playwright test runner
+- Playwright worker defaults: (Parallelization per file/etc..) 
 
 - Locator: https://playwright.dev/docs/api/class-locator
     - Selenium WebElement vs Playwright Locator
