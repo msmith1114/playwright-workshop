@@ -22,6 +22,9 @@
     - context: https://playwright.dev/docs/api/class-browsercontext
     - browser: https://playwright.dev/docs/api/class-browser
     - request: https://playwright.dev/docs/api/class-apirequestcontext
+    - browser → worker-scoped (created once per worker)
+    - context → test-scoped (created once per test)
+    - page → test-scoped (created once per test)
 
 - Locator: https://playwright.dev/docs/api/class-locator
     - Selenium WebElement vs Playwright Locator
